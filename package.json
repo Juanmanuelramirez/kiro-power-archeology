@@ -1,0 +1,28 @@
+{
+  "name": "archeology-power",
+  "version": "0.1.0",
+  "description": "Kiro Power for historical intelligence on legacy code repositories via Git analysis",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc && cp -r src/storage/migrations dist/storage/",
+    "dev": "tsc --watch",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "better-sqlite3": "^11.8.1",
+    "typescript": "^5.8.3"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.13",
+    "@types/node": "^22.15.21",
+    "fast-check": "^4.1.1",
+    "vitest": "^3.1.4"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

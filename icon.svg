@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Background circle -->
+  <circle cx="64" cy="64" r="60" fill="#1a1a2e" stroke="#e94560" stroke-width="3"/>
+  
+  <!-- Ground/dig layer -->
+  <path d="M20 95 Q40 88 64 90 Q88 92 108 95 L108 110 Q88 108 64 110 Q40 108 20 110 Z" fill="#4a3728" opacity="0.8"/>
+  <path d="M25 100 Q45 96 64 98 Q83 100 103 100 L103 108 Q83 106 64 108 Q45 106 25 108 Z" fill="#3d2b1f" opacity="0.6"/>
+  
+  <!-- Fossil bones in ground -->
+  <ellipse cx="40" cy="102" rx="6" ry="2" fill="#d4c5a9" opacity="0.7"/>
+  <rect x="75" y="100" width="12" height="2.5" rx="1" fill="#d4c5a9" opacity="0.7" transform="rotate(-15 81 101)"/>
+  
+  <!-- Dinosaur body -->
+  <ellipse cx="62" cy="62" rx="18" ry="14" fill="#4ecdc4"/>
+  
+  <!-- Dinosaur neck and head -->
+  <path d="M72 52 Q78 42 82 38 Q86 34 90 36 Q94 38 92 42 Q90 46 86 48 Q82 50 76 54" fill="#4ecdc4"/>
+  
+  <!-- Dinosaur head detail -->
+  <ellipse cx="89" cy="38" rx="7" ry="5" fill="#45b7aa"/>
+  
+  <!-- Eye -->
+  <circle cx="90" cy="36" r="2.5" fill="white"/>
+  <circle cx="91" cy="36" r="1.5" fill="#1a1a2e"/>
+  
+  <!-- Smile -->
+  <path d="M87 40 Q89 42 92 41" fill="none" stroke="#1a1a2e" stroke-width="1" stroke-linecap="round"/>
+  
+  <!-- Dinosaur spikes -->
+  <path d="M50 48 L52 42 L55 48" fill="#e94560"/>
+  <path d="M56 46 L58 40 L61 46" fill="#e94560"/>
+  <path d="M62 45 L64 39 L67 45" fill="#e94560"/>
+  <path d="M68 47 L70 41 L73 47" fill="#e94560"/>
+  
+  <!-- Tail -->
+  <path d="M44 62 Q36 60 30 55 Q26 52 28 48" fill="none" stroke="#4ecdc4" stroke-width="7" stroke-linecap="round"/>
+  
+  <!-- Legs -->
+  <rect x="52" y="72" width="5" height="12" rx="2.5" fill="#45b7aa"/>
+  <rect x="66" y="72" width="5" height="12" rx="2.5" fill="#45b7aa"/>
+  
+  <!-- Feet -->
+  <ellipse cx="54" cy="85" rx="4" ry="2" fill="#3d9e94"/>
+  <ellipse cx="68" cy="85" rx="4" ry="2" fill="#3d9e94"/>
+  
+  <!-- Magnifying glass (archaeology tool) -->
+  <circle cx="38" cy="38" r="10" fill="none" stroke="#f4a261" stroke-width="3"/>
+  <circle cx="38" cy="38" r="7" fill="#f4a261" opacity="0.15"/>
+  <line x1="45" y1="45" x2="52" y2="52" stroke="#f4a261" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Code brackets inside magnifying glass -->
+  <text x="33" y="42" font-family="monospace" font-size="10" fill="#f4a261" font-weight="bold">&lt;/&gt;</text>
+  
+  <!-- Small git branch icon -->
+  <circle cx="100" cy="70" r="3" fill="none" stroke="#e94560" stroke-width="1.5"/>
+  <circle cx="100" cy="80" r="3" fill="none" stroke="#e94560" stroke-width="1.5"/>
+  <circle cx="108" cy="75" r="3" fill="none" stroke="#e94560" stroke-width="1.5"/>
+  <line x1="100" y1="73" x2="100" y2="77" stroke="#e94560" stroke-width="1.5"/>
+  <path d="M100 73 Q104 72 105 75" fill="none" stroke="#e94560" stroke-width="1.5"/>
+</svg>

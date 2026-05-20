@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "archeology": {
+      "command": "node",
+      "args": ["/home/juan-ramirez/vsCode/kiro-power-archeology/dist/index.js"],
+      "env": {}
+    }
+  }
+}
